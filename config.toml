@@ -89,6 +89,10 @@ footnotereturnlinkcontents = "↩"
   weight = 2
   title = "Skycoin Блог"
 
+[Languages.es]
+  weight = 3
+  title = "Skycoin Blog"
+
 # Workaround because I can't figure out how to add metadata to Languages
 # in order to print the language name. Can only figure out how to print the
 # language code
@@ -104,3 +108,7 @@ footnotereturnlinkcontents = "↩"
   name = "Ру́сский"
   weight = 2
   url = "/ru/"
+[[menu.languages]]
+  name = "Español"
+  weight = 3
+  url = "/es/"
