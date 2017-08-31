@@ -11,14 +11,14 @@ categories = [
 +++
 
 Skycoin y Skywire son dos componentes separados del Proyecto Skycoin. Skycoin es el blockchain. 
-Skywire es la [red en malla] (https://es.wikipedia.org/wiki/Red_en_malla).
+Skywire es la red descentralizada con [topología de malla](https://es.wikipedia.org/wiki/Red_en_malla) ([*meshnet*](https://en.wikipedia.org/wiki/Mesh_networking)).
 
 Skycoin se desarrolló primero. Pudiendo funcionar por si solo, se creo para solventar los problemas del Bitcoin. De los cuales el mayor de todos es el minado,  pues lleva a su centralización. Los otros problemas están ligados 
 mayormente a la criptografía o a los fallos de software, causantes de problemas como la [maleabilidad de las transacciones] (https://en.bitcoin.it/wiki/Transaction_Malleability)
 
 Skycoin desarrolla un nuevo algoritmo de consenso llamado [Obelisk](https://www.skycoin.net/whitepapers) que 
 elimina el minado (u otras alternativas como el [Proof-of-Stake](https://en.wikipedia.org/wiki/Proof-of-stake)). 
-Los [whitepapers](https://www.skycoin.net/whitepapers) desarrollan este tema. El algoritmo de consenso usa un mecanismo de web-de-confianza (web-of-trust) para asegurar la red. Cada nodo de la red tiene una pequeña lista con pares (peers) de confianza, con lo que comparte bloques. Si hay algún bloque  malicioso, por ejemplo aquel que contenga un [doble gasto](https://en.wikipedia.org/wiki/Double-spending), 
+Los [*whitepapers*](https://www.skycoin.net/whitepapers) desarrollan este tema. El algoritmo de consenso usa un mecanismo de web-de-confianza (web-of-trust) para asegurar la red. Cada nodo de la red tiene una pequeña lista con pares (peers) de confianza, con lo que comparte bloques. Si hay algún bloque  malicioso, por ejemplo aquel que contenga [*double spending*](https://en.wikipedia.org/wiki/Double-spending), 
 es rechazado tanto por el nodo como por sus pares de confianza. Puede haber gran cantidad de nodos maliciosos en la red, pero no son perjudiciales mientras no se confia en ellos.
 
 Skywire se desarrolló para resolver los problemas de Internet. Existen numerosos puntos de ataque, especialmente
